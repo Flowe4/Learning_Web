@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    border-style: ridge;
+    border-color: grey;
+}
+
+
+p{
+    color: green;
+}
+
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: azure;
+}
+
+a:hover{
+    color: aqua;
+}
+
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: azure; /* Azure */
+    border: crimson;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#shut1{
+    color: aqua;
+}
+#shut2{
+    color: green;
+}
+#shut3{
+    color: blue;
+}
+#shut4{
+    color: red;
+}
+#shut5{
+    color: azure;
+}
+#shut6{
+    color: lightcoral;
+}
+label{
+    color: white;
+    font-size: large;
+}
+input{
+    width: 15%;
+    height: 30px;
+    font-size: large;
+}
+Button{
+    color: white;
+    background-color: black;
+}
