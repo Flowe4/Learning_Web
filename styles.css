@@ -1,9 +1,13 @@
 body{
     background-color: black;
+    background-image: url(/images/2955457.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
 
 }
 
@@ -33,9 +37,9 @@ a:hover{
 }
 
 button {
-    background-color: white; /* Green */
+    background-color: white;
     border: none;
-    color: black;
+    color: white;
     padding: 10px 10px;
     width: 80px;
     text-align: center;
@@ -52,34 +56,32 @@ button:hover {
     font-size: 16px;
 }
 
-#shut1{
-    color: aqua;
-}
-#shut2{
-    color: green;
-}
-#shut3{
-    color: blue;
-}
-#shut4{
-    color: red;
-}
-#shut5{
-    color: azure;
-}
-#shut6{
-    color: lightcoral;
-}
-label{
-    color: white;
+div{
     font-size: large;
+    text-align: center;
+    margin-top: 12%;
+    justify-content: center;
+    background: transparent;
+
 }
-input{
+
+#Text{
     width: 15%;
     height: 30px;
     font-size: large;
 }
+
 Button{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
+    text-align: center;
 }
+
+#Label{
+    font-size: larger;
+    text-align: center;
+    color: azure;
+    padding: 20%;
+    border-color: brown;
+}
+
