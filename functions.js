@@ -3,7 +3,7 @@ console.log("fuck you get out of inspect");
 let name = "fuck my dic"
 let age = 21
 
-name = name + 4
+name += 4
 
 
 console.log(name)
