@@ -1,87 +1,132 @@
-body{
-    background-color: black;
-    background-image: url(/images/2955457.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mochiy+Pop+One&family=Rubik+Marker+Hatch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop One';
+}
+
+section{
+    display: flex;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
-    justify-content: center;
-
+    width: 100%;
+    background: url(/images/wallpaperflare.com_wallpaper.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    border-style: ridge;
-    border-color: grey;
-}
-
-
-p{
-    color: green;
-}
-
-
-a:link{
-    color: aqua;
-}
-
-a:visited{
-    color: azure;
-}
-
-a:hover{
-    color: aqua;
-}
-
-button {
-    background-color: white;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    width: 80px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: azure; /* Azure */
-    border: crimson;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-div{
-    font-size: large;
-    text-align: center;
-    margin-top: 12%;
-    justify-content: center;
+.formbox{
+    position: relative;
+    width: 400px;
+    height: 450px;
     background: transparent;
-
+    border: 2px;
+    border-color: #ffff;
+    border-style: solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#Text{
-    width: 15%;
-    height: 30px;
-    font-size: large;
-}
-
-Button{
-    color: black;
-    background-color: white;
+h2{
+    font-size: 2em;
+    color: white;
     text-align: center;
 }
 
-#Label{
-    font-size: larger;
-    text-align: center;
+.inputbox{
+    position: relative;
+    margin: 30px 0px;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #ffff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .6s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5%;
+
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #ffff;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ffff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #ffff;
+    justify-content: center;
+}
+
+.forget label input{
+    margin-right: 3px;
+}
+
+.forget label a{
+    color: #ffff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
     color: azure;
-    padding: 20%;
-    border-color: brown;
 }
 
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #ffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register{
+    font-size: .9em;
+    color: #ffff;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+
+.register p a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+    color: azure;
+}
