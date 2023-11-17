@@ -3,7 +3,10 @@
 *{
     margin: 0;
     padding: 0;
+<<<<<<< Updated upstream
     box-sizing: border-box;
+=======
+>>>>>>> Stashed changes
     font-family: 'Mochiy Pop One';
 }
 
@@ -13,7 +16,11 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
+<<<<<<< Updated upstream
     background: url(/images/wallpaperflare.com_wallpaper2.jpg)no-repeat;
+=======
+    background: url(/images/wallpaperflare.com_wallpaper.jpg)no-repeat;
+>>>>>>> Stashed changes
     background-position: center;
     background-size: cover;
 }
@@ -53,7 +60,11 @@ h2{
     color: #ffff;
     font-size: 1em;
     pointer-events: none;
+<<<<<<< Updated upstream
     transition: .3s;
+=======
+    transition: .6s;
+>>>>>>> Stashed changes
 }
 
 input:focus ~ label,
@@ -101,7 +112,11 @@ input:valid ~ label{
     color: azure;
 }
 
+<<<<<<< Updated upstream
 .Log{
+=======
+button{
+>>>>>>> Stashed changes
     width: 100%;
     height: 40px;
     border-radius: 40px;
@@ -130,6 +145,7 @@ input:valid ~ label{
 .register p a:hover{
     text-decoration: underline;
     color: azure;
+<<<<<<< Updated upstream
 }
 
 .header{
@@ -174,4 +190,6 @@ input:valid ~ label{
 
 .navbar a:hover::before{
     width: 100%;
+=======
+>>>>>>> Stashed changes
 }
