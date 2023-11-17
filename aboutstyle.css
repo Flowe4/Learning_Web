@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Mochiy+Pop+One&family=Rubik+Marker+Hatch&display=swap');
+
+*{
+    background-image: url(/images/wallpaperflare.com_wallpaper2.jpg);
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Mochiy Pop One';
+}
+
+h2{
+    font-size: 1.4em;
+    color: white;
+}
+
+h2:hover{
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+h1{
+    color: white;
+}
+
+h1:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    border-radius: 40%;
+}
+
+a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:hover{
+    color: white;
+    border-bottom: 2px underline;
+    border-radius: 40%;
+    transform: (20%);
+    transition: 1s;
+}
+
+a:hover{
+    text-align: center;
+    text-transform: inherit;
+    border-bottom: 2px solid white;
+    border-radius: 50%;
+    transition: 1s;
+}
